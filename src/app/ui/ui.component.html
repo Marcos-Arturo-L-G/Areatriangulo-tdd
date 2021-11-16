@@ -1,0 +1,22 @@
+<div class="area">
+
+    <form>
+        <label class="base">ingrese la base</label>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span> 
+            <input id="base" type="number" [(ngModel)]="base" class="form-control base" name="base" placeholder="0.0">
+        </div>
+
+        <label class="altura">ingrese la altura</label>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+            <input id="altura" type="number" [(ngModel)]="altura" class="form-control altura" name="altura" placeholder="0.0">
+        </div>
+    </form>
+
+    <i class="glyphicon glyphicon-play calculate-button"
+        (click)="areaT()"></i>
+
+</div>
+
+<span class="result">{{ result }}</span>

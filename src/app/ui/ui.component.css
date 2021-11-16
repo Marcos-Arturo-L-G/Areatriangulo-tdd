@@ -1,0 +1,31 @@
+.area {
+    width: 150px;
+    text-align: center;
+    color: #999;
+}
+
+.result {
+    font-size: 3.0em;
+    font-weight: bold;
+    color: red;
+
+}
+
+.base {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+
+}
+
+.altura {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+
+}
+
+.calculate-button {
+    cursor: pointer;
+    color: blue;
+}
