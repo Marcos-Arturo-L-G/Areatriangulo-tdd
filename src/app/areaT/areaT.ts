@@ -6,4 +6,5 @@ export function areaT(oper1:number, oper2:number) {
 
 
 	//add develop
+	//add code
 }
