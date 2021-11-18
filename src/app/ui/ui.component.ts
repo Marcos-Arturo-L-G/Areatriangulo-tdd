@@ -21,5 +21,6 @@ export class UiComponent implements OnInit {
     let myresult = 0;
     myresult = areaT(this.base, this.altura);
     this.result = myresult;
+	//add ui
   }
 }
