@@ -4,5 +4,11 @@ export function areaT(oper1:number, oper2:number) {
     areaTri = oper1 * oper2 / 2
     return areaTri;
 
+//<<<<<<< develop
+
+	//add develop
+	//add code
+  //================
 	//release add
+//>>>>>>> release
 }
